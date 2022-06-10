@@ -1,0 +1,14 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #aaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 1rem;
+  margin-top: 1rem;
+}
